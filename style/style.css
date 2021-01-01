@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+body .row {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .row .col-md-4 h1 {
+  font-size: 62px;
+  color: blue;
+}
+
+body .row .col-md-4 p {
+  font-size: 20px;
+}
+
+body .row .col-md-3 form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body .row .col-md-3 form input {
+  margin-top: 10px;
+}
+
+body .row .col-md-3 form button {
+  margin-top: 10px;
+}
+
+body .row .col-md-3 form a {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+body .row .col-md-3 form .btn-success {
+  display: block;
+  margin-left: 85px;
+}
+
+body .row .col-md-3 p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .row .col-md-3 p b {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  body .row .col-md-4 {
+    text-align: center;
+  }
+  body .row .col-md-4 h1 {
+    font-size: 28px;
+  }
+  body .row .col-md-3 form .btn-success {
+    margin-left: 27%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
